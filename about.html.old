@@ -87,83 +87,7 @@
 
         </header>
         
-   
-
-
-
-
-
-
-   <section id="banner" class="banner">
-                              
-            <div class="container">
-            <div id="ghughu-banner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                        
-               <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#ghughu-banner-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#ghughu-banner-carousel" data-slide-to="1"></li>
-                    <li data-target="#ghughu-banner-carousel" data-slide-to="2"></li>
-                  </ol>
-             
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner full-height" role="listbox">
-                <div class="item active banner-item">
-                        <div class="row">
-                        <div class="col-sm-7">
-                              <h1 class="animated fadeInUp delay-2">Hands-on AI<br> Workshops.</h1>
-                              <p class="animated fadeInUp delay-3">
-We run interactive three-hour sessions that focus on real exercises. You’ll learn how AI can simplify everyday
-tasks and see immediate, practical results.</p>
-                        </div>
-                        <div class="col-sm-5 text-center hidden-xs">
-                            <img src="images/banner-carousel/students-in-class.jpg" class="animated fadeInUp delay-4
- img-responsive" alt="banner">
-                        </div>
-                        </div>
-                </div>
-                    
-                <div class="item banner-item">
-                    <div class="row">
-                        <div class="col-sm-7">
-                              <h1 class="animated fadeInUp delay-2">Empowering <br> Students &amp; Educators.</h1>
-                              <p class="animated fadeInUp delay-3">
-We make AI accessible to both learners and educators. Our workshops focus on tangible skills, ensuring you can use AI
-tools with confidence in daily life or in the classroom.
-</p>
-                    
-                       </div>
-                        <div class="col-sm-5 text-center hidden-xs">
-                            <img src="images/banner-carousel/future-of-learning.jpg" class="animated fadeInUp delay-4
-img-responsive" alt="banner">
-                        </div>
-                    </div>
-                </div>
-                              
-                </div>
-              </div>
-                        
-              <!-- Controls -->
-              <a class="left carousel-control" href="#ghughu-banner-carousel" role="button" data-slide="prev">
-                <i><img src="images/banner-carousel/arrow-left.svg" alt="icons"></i>
-              </a>
-              <a class="right carousel-control" href="#ghughu-banner-carousel" role="button" data-slide="next">
-                <i><img src="images/banner-carousel/arrow-right.svg" alt="banner"></i>
-              </a>
-             </div>
-        </section>
-   
-
-
-
-
-
-
-
-
-
-
-     <!-- 
+        <!-- main header ends-->
         <section id="about-banner" class="about-banner">
                 <div class="container">
                 <div class="about-banner-wrapper full-height">
@@ -175,7 +99,7 @@ img-responsive" alt="banner">
                 </div>
 
         </section>
--->
+
         <section id="about-us" class="about-us page">
             <div class="container wow fadeInUp" data-wow-delay="0.3s">
                 <div class="row">
