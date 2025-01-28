@@ -34,6 +34,24 @@
     <!-- custom stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
   
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init('pascal@fenkam.name'); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+    })();
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        emailjs.sendForm('service_fxedfb6', 'template_2lda5b3', this)
+            .then(function() {
+                alert('Message sent successfully!');
+            }, function(error) {
+                alert('Failed to send message: ' + JSON.stringify(error));
+            });
+    });
+</script>
+
 
 
 </head>
