@@ -263,6 +263,7 @@ technology and artificial intelligence accessible and impactful in education.
       .then(() => {
         btn.value = 'Send Message'; // Reset the button text
         alert('Message sent successfully!');
+        this.reset(); 
       }, (err) => {
         btn.value = 'Send Message'; // Reset the button text
         alert('Failed to send message: ' + JSON.stringify(err));
