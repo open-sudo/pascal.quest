@@ -35,35 +35,6 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<script type="text/javascript">
-  // Initialize EmailJS with your user ID
-  emailjs.init('P1ya3TP5LWMYOfWFv');
-
-  // Add event listener to the form
-  document.getElementById('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission behavior
-
-    // Get the submit button and update its text
-    const btn = document.querySelector('.custom-button');
-    btn.value = 'Sending...';
-
-    // Define service and template IDs
-    const serviceID = 'default_service';
-    const templateID = 'template_2lda5b3';
-
-    // Send the form data
-    emailjs.sendForm(serviceID, templateID, this)
-      .then(() => {
-        btn.value = 'Send Message'; // Reset the button text
-        alert('Message sent successfully!');
-      }, (err) => {
-        btn.value = 'Send Message'; // Reset the button text
-        alert('Failed to send message: ' + JSON.stringify(err));
-      });
-  });
-</script>
 
 
 
@@ -269,7 +240,36 @@ technology and artificial intelligence accessible and impactful in education.
     <script type="text/javascript" src="js/jquery.validate.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
+<script type="text/javascript">
+  // Initialize EmailJS with your user ID
+  emailjs.init('P1ya3TP5LWMYOfWFv');
+</script>
+
+<script type="text/javascript">
+       
+  // Add event listener to the form
+  document.getElementById('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+    // Get the submit button and update its text
+    const btn = document.querySelector('.custom-button');
+    btn.value = 'Sending...';
+    // Define service and template IDs
+    const serviceID = 'default_service';
+    const templateID = 'template_2lda5b3';
+    // Send the form data
+    emailjs.sendForm(serviceID, templateID, this)
+      .then(() => {
+        btn.value = 'Send Message'; // Reset the button text
+        alert('Message sent successfully!');
+      }, (err) => {
+        btn.value = 'Send Message'; // Reset the button text
+        alert('Failed to send message: ' + JSON.stringify(err));
+      });
+  });
+
+</script>
 <!-- SCRIPTS ENDS -->
 </body>
 
